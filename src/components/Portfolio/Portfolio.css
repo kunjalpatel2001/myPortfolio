@@ -1,0 +1,147 @@
+.portfolio-main-container{
+    background-color: #E6DACE;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+   
+    
+}
+.main-heading h1{border-left: 15px solid #0050ff;
+    padding: 10px;
+    line-height: 8px;}
+.title-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    
+}
+.title-main h2{
+    position: absolute;
+    left: 20%;
+  
+   
+    margin: 15px auto;
+
+}
+.resume-btn{
+    position: absolute;
+    right: 20%;
+}
+.main-experience-container{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+.main-exp-start{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    border-radius: 10px;
+    padding: 25px;
+}
+.resume-btn{
+    margin: 10px;
+    background-color: #0050ff;
+    padding: 10px 30px;
+    border-radius:10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.resume-btn:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.resume-btn:hover span {
+    padding-right: 25px;
+  }
+.resume-btn span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.resume-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+.main-exp-left{
+    width: 40%;
+    margin-left: 35px;
+}
+.main-exp-left h3{
+    color: #0050ff;
+   
+}
+.main-exp-right{
+    width: 60%;
+}
+.position-title{
+    margin: 5px auto;
+}
+.company-title{
+    margin: 5px auto;
+}
+.location-title{
+    margin: 5px auto;
+}
+@media screen and (max-width:786px){
+    .main-exp-start{
+        background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 10px;
+    padding: 25px;
+    }
+    .main-exp-left {
+        width: 100%;
+      margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-exp-right {
+        width: 100%;
+        margin: 25px auto;
+    }
+    .title-main h2{
+        position: absolute;
+        left: 40px;    
+        margin: 15px auto;
+        font-size: 20px;
+    
+    }
+    .resume-btn{
+        position: absolute;
+        right: 40px;
+    }
+    .resume-btn{
+        margin: 10px;
+        background-color: #0050ff;
+        padding: 7px 10px;
+        border-radius:10px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+   
+}

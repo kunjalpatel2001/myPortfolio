@@ -1,0 +1,23 @@
+.title-main-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+
+    
+}
+.title-main-head h2{
+    position: absolute;
+    left: 20%;
+  border-left: 15px solid #0050ff;
+  padding: 15px;
+  line-height: 8px;
+   
+    margin: 15px auto;
+
+}
+.main-education{
+    margin: 35px auto !important;
+    
+}

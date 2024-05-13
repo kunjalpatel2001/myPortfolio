@@ -17,14 +17,14 @@ export const MenuItems = [
     },
     {
         title: 'PROJECTS',
-        url:'#',
+        url:'/Project',
         cName: 'nav-links',
        
 
     },
     {
         title: 'CONTACT',
-        url:'#',
+        url:'/Contact',
         cName: 'nav-links',
       
     },

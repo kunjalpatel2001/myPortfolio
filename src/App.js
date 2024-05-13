@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Project from "./components/Project/Project";
+import Contact from "./components/Contact/Contact";
 import ReactGA from 'react-ga';
 ReactGA.initialize("G-E2H1N8ZPH0");
 
@@ -18,6 +20,8 @@ return(<>
   <Routes>
     <Route exact path="/" element={<Homepage/>}></Route>
     <Route exact path="/Portfolio" element={<Portfolio/>}></Route>
+    <Route exact path="/Project" element={<Project/>}></Route>
+    <Route exact path="/Contact" element={<Contact/>}></Route>
     <Route exact path="/Footer" element={<Footer/>}></Route>
    
 

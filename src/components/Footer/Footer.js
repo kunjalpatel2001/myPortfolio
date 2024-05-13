@@ -38,7 +38,7 @@ function Footer() {
         <section className="footer-info-center">
           <b>Contact:</b>
           <br />
-          +15623913286
+          +1 (562) 391-3286
         </section>
         <section className="footer-info-right">
           <b>Mail:</b>

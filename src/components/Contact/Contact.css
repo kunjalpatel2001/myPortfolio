@@ -1,0 +1,90 @@
+.Appt{
+    display: flex;
+    justify-content: center;
+}
+.emailForm{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 3% 0%;
+}
+.insi_field{
+    margin: 10px 0px;
+    /* text-decoration-line: none; */
+    height: 50px;
+    padding-left: 20px;
+}
+.messg_input{
+    margin: 10px 0px;
+    padding: 20px;
+}
+input[type=text] {
+    width: 100%;
+    
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #0050ff;
+  }
+  input[type=text]:focus {
+    width: 100%;
+    
+   border: none !important;
+  }
+  input[type=email] {
+    width: 100%;
+    
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #0050ff;
+  }
+  input[type=email] :focus{
+    width: 100%;
+    
+   border: none !important;
+  }
+  textarea{
+    width: 100%;
+    
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #0050ff;
+  }
+  .btn-main{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .btn-contact{
+    height: 50px;
+    width: 110px;
+    background-color: #0050ff;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .btn-contact:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.btn-contact:hover span {
+    padding-right: 25px;
+  }
+  .btn-contact span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 18px;
+}
+.btn-contact span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  

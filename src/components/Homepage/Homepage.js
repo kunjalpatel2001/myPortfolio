@@ -1,9 +1,12 @@
 import React, { Component} from "react";
 import Navbar from '../Navbar/Navbar';
 import './Homepage.css'
-import picture from '../../assets/Homepage/Profile.png';
+import picture from '../../assets/Homepage/IMG_2553_(1).jpg';
 import Education from '../Education/Education';
-
+import Contact from '../Contact/Contact';
+import Portfolio from '../Portfolio/Portfolio';
+import Project from '../Project/Project';
+import Resume from '../../assets/Resume.pdf';
 
 function Homepage() {
     return (
@@ -28,8 +31,8 @@ function Homepage() {
 my portfolio
 Website!</h1>
                     <div className="btn-start">
-                        <div className="btn-1"><span>Resume</span></div>
-                        <div className="btn-2"><span>Github</span></div>
+                        <a href={Resume} download="Resume"><div className="btn-1"><span>Resume</span></div></a>
+                        <a href="https://github.com/kunjalpatel2001 " target="_blank"><div className="btn-2"><span>Github</span></div></a>
                     </div>
                     <p>Welcome to my website! I am a web developer
 passionate about creating stunning and
@@ -43,6 +46,10 @@ how we can work together to bring your ideas to life.</p>
         </div>
      </div>
      <Education/>
+     
+     <Portfolio/>
+     <Project/>
+     <Contact/>
       </div>
       
     );

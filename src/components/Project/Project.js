@@ -2,31 +2,50 @@ import React, { Component } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import './Project.css';
+import picture from "../../assets/Projects/HiRes-17.jpg"
 function Project(){
     return(
         <div>
             <div className="portfolio-main-container">
-    <div className="main-heading"><h1>Portfolio</h1></div>
-    <div className="title-main">
-        <h2>Experience</h2>
-        <div className="resume-btn"><span>Linkedin</span></div>
-    </div>
+    <div className="main-heading"><h1>Projects</h1></div>
+    <div className="main-para"><p>Welcome to my portfolio! As a web developer, I have had the opportunity to work on
+various exciting projects. Each project has been a learning experience and a chance to
+push the boundaries of web development. I believe in creating meaningful and
+impactful digital solutions that resonate with users.</p></div>
+  
     <div className="main-experience-container">
         <div className="main-exp-start">
             <div className="main-exp-left">
-                <h3>2022-2024</h3>
-                <div className="position-title"><b>Software Developer</b></div>
-                <div className="company-title">Associated Students Inc,</div>
-                <div className="location-title">Long Beach, California</div>
+                <h3>Project 1:- Search Engine</h3>
+               
+                <div className="company-title">Led the development of a sophisticated information retrieval system using Python, achieving rapid searching and best-in-class search functionality.
+• Successfully processed and indexed over 30,000 diverse documents from the National Parks Service, including .txt and .json files. This streamlined document 
+handling for the search engine, optimizing data retrieval.
+
+</div>
+                
 
             </div>
-            <div className="main-exp-right">lorem Stallman's concept specifically included the idea that no 
-                central organization should control editing. This contrasted with contemporary d
-                igital encyclopedias such as Microsoft Encarta and Encyclopædia Britannica. In 2001, t
-                he license for Nupedia was changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
-                edia as a complementary project, using an online wiki[6] as a collaborative drafting tool. While Wiki
-                pedia was initially imagined as a place to draft articles and ideas for eventual polishing in Nupedia,
-                 it quickly overtook its predecessor</div>
+            <div className="main-exp-right-img"><img src={picture}></img></div>
+
+
+            </div>
+        </div>
+      
+        <div className="main-experience-container">
+        <div className="main-exp-start">
+            <div className="main-exp-left">
+                <h3>Project 1:- Search Engine</h3>
+               
+                <div className="company-title">Led the development of a sophisticated information retrieval system using Python, achieving rapid searching and best-in-class search functionality.
+• Successfully processed and indexed over 30,000 diverse documents from the National Parks Service, including .txt and .json files. This streamlined document 
+handling for the search engine, optimizing data retrieval.
+
+</div>
+                
+
+            </div>
+            <div className="main-exp-right-img"><img src={picture}></img></div>
 
 
             </div>
@@ -34,45 +53,21 @@ function Project(){
         <div className="main-experience-container">
         <div className="main-exp-start">
             <div className="main-exp-left">
-                <h3>2022-2024</h3>
-                <div className="position-title"><b>Software Developer</b></div>
-                <div className="company-title">Associated Students Inc,</div>
-                <div className="location-title">Long Beach, California</div>
+                <h3>Project 1:- Search Engine</h3>
+               
+                <div className="company-title">Led the development of a sophisticated information retrieval system using Python, achieving rapid searching and best-in-class search functionality.
+• Successfully processed and indexed over 30,000 diverse documents from the National Parks Service, including .txt and .json files. This streamlined document 
+handling for the search engine, optimizing data retrieval.
+
+</div>
+                
 
             </div>
-            <div className="main-exp-right">lorem Stallman's concept specifically included the idea that no 
-                central organization should control editing. This contrasted with contemporary d
-                igital encyclopedias such as Microsoft Encarta and Encyclopædia Britannica. In 2001, t
-                he license for Nupedia was changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
-                edia as a complementary project, using an online wiki[6] as a collaborative drafting tool. While Wiki
-                pedia was initially imagined as a place to draft articles and ideas for eventual polishing in Nupedia,
-                 it quickly overtook its predecessor</div>
+            <div className="main-exp-right-img"><img src={picture}></img></div>
 
 
             </div>
         </div>
-        <div className="main-experience-container">
-        <div className="main-exp-start">
-            <div className="main-exp-left">
-                <h3>2022-2024</h3>
-                <div className="position-title"><b>Software Developer</b></div>
-                <div className="company-title">Associated Students Inc,</div>
-                <div className="location-title">Long Beach, California</div>
-
-            </div>
-            <div className="main-exp-right">lorem Stallman's concept specifically included the idea that no 
-                central organization should control editing. This contrasted with contemporary d
-                igital encyclopedias such as Microsoft Encarta and Encyclopædia Britannica. In 2001, t
-                he license for Nupedia was changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
-                edia as a complementary project, using an online wiki[6] as a collaborative drafting tool. While Wiki
-                pedia was initially imagined as a place to draft articles and ideas for eventual polishing in Nupedia,
-                 it quickly overtook its predecessor</div>
-
-
-            </div>
-        </div>
-        <Skills/>
-
     </div>
         </div>
     )}

@@ -8,7 +8,7 @@ function Project(){
         <div>
             <div className="portfolio-main-container">
     <div className="main-heading"><h1>Projects</h1></div>
-    <div className="main-para"><p>Welcome to my portfolio! As a web developer, I have had the opportunity to work on
+    <div className="main-para para-para"><p>Welcome to my portfolio! As a web developer, I have had the opportunity to work on
 various exciting projects. Each project has been a learning experience and a chance to
 push the boundaries of web development. I believe in creating meaningful and
 impactful digital solutions that resonate with users.</p></div>

@@ -18,3 +18,11 @@
 margin: 10px 12px;
 cursor: pointer;
 }
+@media screen and (max-width: 710px){
+    .main-exp-right-img{
+        width: 100%;
+    }
+    .main-exp-right-img img{
+        margin: 0px;
+    }
+}

@@ -52,6 +52,10 @@ text-decoration: none !important;
 .NavbarItems{
     position:relative;
 }
+.navbar-logo{
+    font-size:25px;
+}
+
 .nav-menu{
     display: flex;
     flex-direction: column;

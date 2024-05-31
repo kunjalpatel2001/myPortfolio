@@ -133,6 +133,9 @@
         width: 100%;
         margin: 25px auto;
     }
+    .main-heading h1{
+        font-size:25px;
+    }
     .title-main h2{
         position: absolute;
         left: 40px;    

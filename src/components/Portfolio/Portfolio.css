@@ -135,6 +135,11 @@
         position: absolute;
         right: 40px;
     }
+    .resume-btn a{
+        text-decoration: none !important;
+        color: #fff;
+    }
+    
     .resume-btn{
         margin: 10px;
         background-color: #0050ff;
@@ -143,6 +148,7 @@
         color: #fff;
         cursor: pointer;
         transition: all 0.5s;
+        text-decoration: none !important;
     }
    
 }

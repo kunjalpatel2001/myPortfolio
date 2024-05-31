@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Gettoknowmore.css";
-import pic5 from "../../assets/Homepage/Experience1.jpg"
-import pic6 from "../../assets/Homepage/Project.jpg"
+import pic5 from "../../assets/Homepage/Experience1.jpg";
+import pic6 from "../../assets/Homepage/Project.jpg";
 function Gettoknowmore() {
   return (
     <div>
@@ -11,24 +11,35 @@ function Gettoknowmore() {
         </div>
         <div className="main-para">
           <p>
-            Welcome to my portfolio! As a web developer, I have had the
-            opportunity to work on various exciting projects. Each project has
-            been a learning experience and a chance to push the boundaries of
-            web development. I believe in creating meaningful and impactful
-            digital solutions that resonate with users.
+            Welcome to my portfolio! To know more about my experiences and
+            projects, explore my work in web development, software engineering,
+            and machine learning. I have developed various applications using a
+            range of technologies including HTML/CSS, ReactJS, NodeJS, Javascript, Python, PHP, Java, Babylon JS and advanced
+            JavaScript frameworks. My projects also include implementing machine
+            learning algorithms for data analysis. These experiences, combined
+            with my coursework demonstrate my comprehensive skill set and readiness
+            for the tech industry.
           </p>
         </div>
       </div>
       <div className="main-main-cont">
         <div className="main-section-start">
-          <a href="https://kunjalpatel.netlify.app/portfolio"><div className="main-inner-section">
-            <div className="inner-main-title">Experiences</div>
-            <div className="inner-img"><img src={pic5}></img></div>
-          </div></a>
-          <a href="https://kunjalpatel.netlify.app/project"><div className="main-inner-section">
-            <div className="inner-main-title">Projects</div>
-            <div className="inner-img"><img src={pic6}></img></div>
-            </div></a>
+          <a href="https://kunjalpatel.netlify.app/portfolio">
+            <div className="main-inner-section">
+              <div className="inner-main-title">Experiences</div>
+              <div className="inner-img">
+                <img src={pic5}></img>
+              </div>
+            </div>
+          </a>
+          <a href="https://kunjalpatel.netlify.app/project">
+            <div className="main-inner-section">
+              <div className="inner-main-title">Projects</div>
+              <div className="inner-img">
+                <img src={pic6}></img>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>

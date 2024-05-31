@@ -9,7 +9,7 @@ function Gettoknowmore() {
         <div className="main-heading head1">
           <h1>Know More About Me</h1>
         </div>
-        <div className="main-para">
+        <div className="main-para para-para">
           <p>
             Welcome to my portfolio! To know more about my experiences and
             projects, explore my work in web development, software engineering,

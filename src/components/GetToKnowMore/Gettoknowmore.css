@@ -46,6 +46,9 @@
     .head1 h1{
         line-height: 30px !important;
     }
+    .para-para p{
+        width: 80% !important;
+    }
    
 }
 .main-inner-section:hover{

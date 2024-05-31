@@ -25,4 +25,7 @@ cursor: pointer;
     .main-exp-right-img img{
         margin: 0px;
     }
+    .para-para p{
+        width: 80%;
+    }
 }

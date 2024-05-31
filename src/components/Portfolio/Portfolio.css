@@ -132,6 +132,7 @@
     .main-exp-right {
         width: 100%;
         margin: 25px auto;
+        text-align: justify;
     }
     .main-heading h1{
         font-size:25px;

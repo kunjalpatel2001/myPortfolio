@@ -36,7 +36,7 @@ Website!</h1>
         sequence={[
             "I'm a Web Developer, ",
             1000,
-            "I'm Web Designer, ",
+            "I'm a Web Designer, ",
             1000,
             "I'm a Software Developer,",
             1000,

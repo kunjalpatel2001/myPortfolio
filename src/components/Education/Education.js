@@ -7,7 +7,7 @@ function Education() {
   return (
     <div className="portfolio-main-container main-education">
       <div className="title-main-head">
-        <h2>Education</h2>
+        <h1>Education</h1>
       </div>
       <div className="main-experience-container">
         <div className="main-exp-start">

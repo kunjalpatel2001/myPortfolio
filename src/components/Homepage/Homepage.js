@@ -5,6 +5,7 @@ import picture from "../../assets/Homepage/IMG_2553_(1).jpg";
 import Education from "../Education/Education";
 import Contact from "../Contact/Contact";
 import Gettoknowmore from "../GetToKnowMore/Gettoknowmore";
+import Skills from "../Skills/Skills";
 import Resume from "../../assets/Resume.pdf";
 import { TypeAnimation } from "react-type-animation";
 
@@ -74,6 +75,7 @@ function Homepage() {
         </div>
       </div>
       <Education />
+      <Skills/>
       <Gettoknowmore />
 
       <Contact />

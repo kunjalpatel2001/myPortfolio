@@ -14,10 +14,10 @@ function Education() {
           <div className="main-exp-left">
             <h3>July 2022 - May 2024</h3>
             <div className="position-title">
-              <b>GPA: 3.7</b>
+              <i>GPA: 3.7</i>
             </div>
             <div className="company-title">
-              California State University - Long Beach
+              <b>California State University - Long Beach</b>
             </div>
             <div className="location-title">Master's, Computer Science</div>
           </div>
@@ -40,9 +40,9 @@ function Education() {
           <div className="main-exp-left">
             <h3>July 2018 - May 2022</h3>
             <div className="position-title">
-              <b>GPA: 3.9</b>
+              <i>GPA: 3.9</i>
             </div>
-            <div className="company-title">Indus University, Ahmedabad</div>
+            <div className="company-title"><b>Indus University, Ahmedabad</b></div>
             <div className="location-title">
               Bachelor's, Information Technology
             </div>

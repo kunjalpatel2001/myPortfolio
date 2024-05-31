@@ -21,3 +21,8 @@
     margin: 35px auto !important;
     
 }
+@media screen and (max-width:500px){
+    .company-title{
+        text-align: center;
+    }
+}

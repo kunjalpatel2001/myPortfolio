@@ -86,4 +86,8 @@
         align-items: center;
         margin-bottom: 30px;
       }
+      .footer-info-left, .footer-info-center, .footer-info-right{
+        width: 50%;
+      }
+
   }

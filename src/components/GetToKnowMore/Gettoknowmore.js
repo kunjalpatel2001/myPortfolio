@@ -6,7 +6,7 @@ function Gettoknowmore() {
   return (
     <div>
       <div className="portfolio-main-container">
-        <div className="main-heading">
+        <div className="main-heading head1">
           <h1>Know More About Me</h1>
         </div>
         <div className="main-para">

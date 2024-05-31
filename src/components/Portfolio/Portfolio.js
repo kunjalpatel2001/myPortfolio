@@ -1,84 +1,103 @@
-import React, { Component } from 'react';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Footer/Footer';
-import './Portfolio.css';
-import Skills from '../Skills/Skills';
+import React, { Component } from "react";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import "./Portfolio.css";
+import Skills from "../Skills/Skills";
 
-function Portfolio(){
-    return(
-<div className="portfolio-main-container">
-    <div className="main-heading"><h1>Portfolio</h1></div>
-    <div className="title-main">
+function Portfolio() {
+  return (
+    <div className="portfolio-main-container">
+      <div className="main-heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div className="title-main">
         <h2>Experience</h2>
-        <div className="resume-btn"><a className="inside-resume" href="https://www.linkedin.com/in/kunjal-patel2001/" target="_blank"><span>Linkedin</span></a></div>
+        <div className="resume-btn">
+          <a
+            className="inside-resume"
+            href="https://www.linkedin.com/in/kunjal-patel2001/"
+            target="_blank"
+          >
+            <span>Linkedin</span>
+          </a>
+        </div>
+      </div>
+      <div className="main-experience-container">
+        <div className="main-exp-start">
+          <div className="main-exp-left">
+            <h3>June 2023 - May 2024</h3>
+            <div className="position-title">
+              <b>Software Developer</b>
+            </div>
+            <div className="company-title">Associated Students Inc,CSULB </div>
+            <div className="location-title">Long Beach, California, USA</div>
+            <div className="location-title"><a className="wesite-link" href="https://www.linkedin.com/company/csulbasi/mycompany/" target="_blank">Visit:- CSULB ASI</a></div>
+          </div>
+          <div className="main-exp-right">
+            Led the development of engaging web experiences using HTML, CSS,
+            and JavaScript, setting a standard for increased user interaction. Also,
+            improved Joomla CMS with PHP extensions, streamlining content
+            management processes and workflow efficiency. Additionally, I
+            directed the setup of a live streaming radio station using React.js
+            and Node.js, demonstrating my capacity for innovation and delivering
+            distinctive web solutions. Ensuring adherence to WCAG standards and
+            integrating user-centric design principles, fostered a culture of
+            accessibility excellence within the team. Moreover, introduced
+            Git/GitHub for version control, implementing effective branching
+            strategies and code review procedures to facilitate seamless
+            collaboration.
+          </div>
+        </div>
+      </div>
+      <div className="main-experience-container">
+        <div className="main-exp-start">
+          <div className="main-exp-left">
+            <h3>2022-2024</h3>
+            <div className="position-title">
+              <b>Software Developer</b>
+            </div>
+            <div className="company-title">Associated Students Inc,</div>
+            <div className="location-title">Long Beach, California</div>
+          </div>
+          <div className="main-exp-right">
+            lorem Stallman's concept specifically included the idea that no
+            central organization should control editing. This contrasted with
+            contemporary d igital encyclopedias such as Microsoft Encarta and
+            Encyclopædia Britannica. In 2001, t he license for Nupedia was
+            changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
+            edia as a complementary project, using an online wiki[6] as a
+            collaborative drafting tool. While Wiki pedia was initially imagined
+            as a place to draft articles and ideas for eventual polishing in
+            Nupedia, it quickly overtook its predecessor
+          </div>
+        </div>
+      </div>
+      <div className="main-experience-container">
+        <div className="main-exp-start">
+          <div className="main-exp-left">
+            <h3>2022-2024</h3>
+            <div className="position-title">
+              <b>Software Developer</b>
+            </div>
+            <div className="company-title">Associated Students Inc,</div>
+            <div className="location-title">Long Beach, California</div>
+          </div>
+          <div className="main-exp-right">
+            lorem Stallman's concept specifically included the idea that no
+            central organization should control editing. This contrasted with
+            contemporary d igital encyclopedias such as Microsoft Encarta and
+            Encyclopædia Britannica. In 2001, t he license for Nupedia was
+            changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
+            edia as a complementary project, using an online wiki[6] as a
+            collaborative drafting tool. While Wiki pedia was initially imagined
+            as a place to draft articles and ideas for eventual polishing in
+            Nupedia, it quickly overtook its predecessor
+          </div>
+        </div>
+      </div>
+      <Skills />
     </div>
-    <div className="main-experience-container">
-        <div className="main-exp-start">
-            <div className="main-exp-left">
-                <h3>2022-2024</h3>
-                <div className="position-title"><b>Software Developer</b></div>
-                <div className="company-title">Associated Students Inc,</div>
-                <div className="location-title">Long Beach, California</div>
-
-            </div>
-            <div className="main-exp-right">lorem Stallman's concept specifically included the idea that no 
-                central organization should control editing. This contrasted with contemporary d
-                igital encyclopedias such as Microsoft Encarta and Encyclopædia Britannica. In 2001, t
-                he license for Nupedia was changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
-                edia as a complementary project, using an online wiki[6] as a collaborative drafting tool. While Wiki
-                pedia was initially imagined as a place to draft articles and ideas for eventual polishing in Nupedia,
-                 it quickly overtook its predecessor</div>
-
-
-            </div>
-        </div>
-        <div className="main-experience-container">
-        <div className="main-exp-start">
-            <div className="main-exp-left">
-                <h3>2022-2024</h3>
-                <div className="position-title"><b>Software Developer</b></div>
-                <div className="company-title">Associated Students Inc,</div>
-                <div className="location-title">Long Beach, California</div>
-
-            </div>
-            <div className="main-exp-right">lorem Stallman's concept specifically included the idea that no 
-                central organization should control editing. This contrasted with contemporary d
-                igital encyclopedias such as Microsoft Encarta and Encyclopædia Britannica. In 2001, t
-                he license for Nupedia was changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
-                edia as a complementary project, using an online wiki[6] as a collaborative drafting tool. While Wiki
-                pedia was initially imagined as a place to draft articles and ideas for eventual polishing in Nupedia,
-                 it quickly overtook its predecessor</div>
-
-
-            </div>
-        </div>
-        <div className="main-experience-container">
-        <div className="main-exp-start">
-            <div className="main-exp-left">
-                <h3>2022-2024</h3>
-                <div className="position-title"><b>Software Developer</b></div>
-                <div className="company-title">Associated Students Inc,</div>
-                <div className="location-title">Long Beach, California</div>
-
-            </div>
-            <div className="main-exp-right">lorem Stallman's concept specifically included the idea that no 
-                central organization should control editing. This contrasted with contemporary d
-                igital encyclopedias such as Microsoft Encarta and Encyclopædia Britannica. In 2001, t
-                he license for Nupedia was changed to GFDL, and Jimmy Wales and Larry Sanger launched Wikip
-                edia as a complementary project, using an online wiki[6] as a collaborative drafting tool. While Wiki
-                pedia was initially imagined as a place to draft articles and ideas for eventual polishing in Nupedia,
-                 it quickly overtook its predecessor</div>
-
-
-            </div>
-        </div>
-        <Skills/>
-
-    </div>
-    
-
-    )
+  );
 }
-
 
 export default Portfolio;

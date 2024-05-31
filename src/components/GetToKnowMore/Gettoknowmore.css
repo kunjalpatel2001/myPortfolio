@@ -34,10 +34,19 @@
     transition: all .2s ease-in-out; 
     text-decoration: none;
 }
+.main-heading1{
+    border-left: 15px solid #0050ff;
+    line-height: 30px;
+    padding: 10px;
+}
 @media screen and (max-width:500px){
     .main-inner-section{
         width: 280px;
     }
+    .head1 h1{
+        line-height: 30px !important;
+    }
+   
 }
 .main-inner-section:hover{
     transform: scale(0.98);

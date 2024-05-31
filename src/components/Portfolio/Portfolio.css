@@ -94,6 +94,10 @@
 .main-exp-right{
     width: 60%;
 }
+.wesite-link{
+    text-decoration: none;
+    color: #0050ff;
+}
 .position-title{
     margin: 5px auto;
 }

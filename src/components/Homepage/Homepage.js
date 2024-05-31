@@ -4,9 +4,9 @@ import './Homepage.css'
 import picture from '../../assets/Homepage/IMG_2553_(1).jpg';
 import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
-import Portfolio from '../Portfolio/Portfolio';
-import Project from '../Project/Project';
+import Gettoknowmore from "../GetToKnowMore/Gettoknowmore";
 import Resume from '../../assets/Resume.pdf';
+import { TypeAnimation } from 'react-type-animation';
 
 function Homepage() {
     return (
@@ -26,10 +26,30 @@ function Homepage() {
               
             </div>
             <div className="inner-box-right">
+            
                 <div className="inner-text-box">
                     <h1>Welcome to
 my portfolio
 Website!</h1>
+<div className="inner-animate-text">
+      <TypeAnimation
+        sequence={[
+            "I'm a Web Developer, ",
+            1000,
+            "I'm Web Designer, ",
+            1000,
+            "I'm a Software Developer,",
+            1000,
+            "I'm a UI/UX Designer,",
+            1000,
+            "",
+          "",
+        ]}
+        speed={50}
+        style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
+        repeat={Infinity}
+      />
+    </div>
                     <div className="btn-start">
                         <a href={Resume} download="Resume"><div className="btn-1"><span>Resume</span></div></a>
                         <a href="https://github.com/kunjalpatel2001 " target="_blank"><div className="btn-2"><span>Github</span></div></a>
@@ -46,9 +66,8 @@ how we can work together to bring your ideas to life.</p>
         </div>
      </div>
      <Education/>
+     <Gettoknowmore/>
      
-     <Portfolio/>
-     <Project/>
      <Contact/>
       </div>
       

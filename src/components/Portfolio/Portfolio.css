@@ -103,6 +103,11 @@
 .location-title{
     margin: 5px auto;
 }
+.inside-resume{
+    text-decoration: none !important;
+    color: #fff;
+}
+
 @media screen and (max-width:786px){
     .main-exp-start{
         background-color: #fff;
@@ -135,10 +140,7 @@
         position: absolute;
         right: 40px;
     }
-    .resume-btn a{
-        text-decoration: none !important;
-        color: #fff;
-    }
+   
     
     .resume-btn{
         margin: 10px;

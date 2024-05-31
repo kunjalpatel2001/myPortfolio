@@ -10,7 +10,7 @@ function Portfolio(){
     <div className="main-heading"><h1>Portfolio</h1></div>
     <div className="title-main">
         <h2>Experience</h2>
-        <div className="resume-btn"><a href="https://www.linkedin.com/in/kunjal-patel2001/" target="_blank"><span>Linkedin</span></a></div>
+        <div className="resume-btn"><a className="inside-resume" href="https://www.linkedin.com/in/kunjal-patel2001/" target="_blank"><span>Linkedin</span></a></div>
     </div>
     <div className="main-experience-container">
         <div className="main-exp-start">

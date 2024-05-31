@@ -84,7 +84,8 @@ background-color:#E6DACE;
     
 }
 .inner-text-box h1{
-font-size: 45px;
+font-size: 40px;
+padding: 20px 0px
 }
 .btn-start{
     display: flex;

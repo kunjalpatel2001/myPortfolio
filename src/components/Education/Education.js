@@ -22,8 +22,8 @@ function Education() {
             <div className="location-title">Master's, Computer Science</div>
           </div>
           <div className="main-exp-right">
-            During my Master's in Computer Science at California State
-            University-Long Beach, I enhanced my skills through courses such as
+            Pursuing Master's in Computer Science from California State
+            University-Long Beach helped me to enhance my skills through courses such as
             Data Structures and Algorithms, Software Engineering & Testing,
             Advanced Programming Languages, Advanced AI, Machine Learning, and
             Topics in Distributed Computing. I also completed several projects

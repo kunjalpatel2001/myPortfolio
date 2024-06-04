@@ -9,9 +9,12 @@ import Skills from "../Skills/Skills";
 import Resume from "../../assets/Resume.pdf";
 import { TypeAnimation } from "react-type-animation";
 
+
+
 function Homepage() {
   return (
-    <div className="main-container-start">
+
+      <div className="main-container-start">
       <div className="main-container-one"></div>
       <div className="main-container-two">
         <div className="inner-box-start">
@@ -80,6 +83,9 @@ function Homepage() {
 
       <Contact />
     </div>
+
+   
+    
   );
 }
 

@@ -16,8 +16,19 @@
     height: 260px;
     object-fit: contain;
 margin: 10px 12px;
+transition: all .3s ease-in-out; 
 cursor: pointer;
 }
+.main-exp-right-img img:hover{
+    transform: scale(1.03);
+      }
+
+
+
+
+
+
+
 @media screen and (max-width: 710px){
     .main-exp-right-img{
         width: 100%;

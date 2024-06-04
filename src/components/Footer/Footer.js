@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
-
+import pict1 from "../../assets/Footer/icon.png";
+import pict2 from "../../assets/Footer/phone.png";
+import pict3 from "../../assets/Footer/email.png";
 function Footer() {
   return (
     <section className="footer-main">
@@ -29,6 +31,7 @@ function Footer() {
       </section>
       <section className="footer-info">
         <section className="footer-info-left">
+          <img className="footer-img" src={pict1}></img>
           <b>Kunjal Patel</b>
           <br />
           Software Developer
@@ -36,12 +39,14 @@ function Footer() {
           Long Beach, USA
         </section>
         <section className="footer-info-center">
-          <b>Contact:</b>
+        
+          <b><img className="footer-img1" src={pict2}></img>Contact:</b>
           <br />
           +1 (562) 391-3286
         </section>
         <section className="footer-info-right">
-          <b>Mail:</b>
+       
+          <b> <img className="footer-img1" src={pict3}></img>Mail:</b>
           <br />
           kunjalpatel2001@gmail.com
         </section>

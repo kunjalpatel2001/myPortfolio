@@ -18,9 +18,10 @@ function Project(){
             <div className="main-exp-left">
                 <h3>Project 1:- 22 WestMedia</h3>
                
-                <div className="company-title">Led the development of a sophisticated information retrieval system using Python, achieving rapid searching and best-in-class search functionality.
-• Successfully processed and indexed over 30,000 diverse documents from the National Parks Service, including .txt and .json files. This streamlined document 
-handling for the search engine, optimizing data retrieval.
+                <div className="company-title">Developed and maintained a live streaming radio website using React JS, Node JS, SCSS, CSS, Bootstrap, JavaScript, and
+modern animation libraries, enhancing user engagement and experience.
+Implemented GitHub and CI/CD pipelines, resulting in a 10% reduction in development time and improved code quality and
+deployment efficiency.
 
 </div>
                 
@@ -38,7 +39,7 @@ handling for the search engine, optimizing data retrieval.
                 <h3>Project 2:- Search Engine</h3>
                
                 <div className="company-title">Led the development of a sophisticated information retrieval system using Python, achieving rapid searching and best-in-class search functionality.
-• Successfully processed and indexed over 30,000 diverse documents from the National Parks Service, including .txt and .json files. This streamlined document 
+Successfully processed and indexed over 30,000 diverse documents from the National Parks Service, including .txt and .json files. This streamlined document 
 handling for the search engine, optimizing data retrieval.
 
 </div>
@@ -55,9 +56,8 @@ handling for the search engine, optimizing data retrieval.
             <div className="main-exp-left">
                 <h3>Project 3:- Task Management</h3>
                
-                <div className="company-title">Led the development of a sophisticated information retrieval system using Python, achieving rapid searching and best-in-class search functionality.
-• Successfully processed and indexed over 30,000 diverse documents from the National Parks Service, including .txt and .json files. This streamlined document 
-handling for the search engine, optimizing data retrieval.
+                <div className="company-title">Directed project management for a cross-functional team of 10+, leading daily stand-ups and utilizing Jira to streamline workflow.
+                Boosted product delivery by 35% and reduced time to market by 20% through detailed project planning and execution.
 
 </div>
                 

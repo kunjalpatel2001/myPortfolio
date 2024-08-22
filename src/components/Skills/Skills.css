@@ -104,3 +104,37 @@
         width: 100%;
     }
 }
+
+.global{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tech-start{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.tech-startdiv{
+    padding:20px;
+}
+
+.tech-text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.tech-text img{
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+    gap: 20px;
+    background:transparent;
+    mix-blend-mode:multiply !important;
+}

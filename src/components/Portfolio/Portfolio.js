@@ -44,19 +44,11 @@ function Portfolio() {
             </div>
           </div>
           <div className="main-exp-right">
-            Led the development of engaging web experiences using HTML, CSS, and
-            JavaScript, setting a standard for increased user interaction. Also,
-            improved Joomla CMS with PHP extensions, streamlining content
-            management processes and workflow efficiency. Additionally, I
-            directed the setup of a live streaming radio station using React.js
-            and Node.js, demonstrating my capacity for innovation and delivering
-            distinctive web solutions. Ensuring adherence to WCAG standards and
-            integrating user-centric design principles, fostered a culture of
-            accessibility excellence within the team. Moreover, introduced
-            Git/GitHub for version control, implementing effective branching
-            strategies and code review procedures to facilitate seamless
-            collaboration.
-          </div>
+          <li>Developed and maintained a live streaming radio website using React.js, Node.js, and SCSS, enhancing user interaction and experience.</li>
+          <li>Integrated GitHub and <b>CI/CD pipelines</b>, reducing development time by 10% and improving code quality.</li>
+          <li>Managed and maintained multiple websites using Joomla CMS with <b>PHP extentions</b>, focusing on enhancing functionality and user-friendliness.</li>
+         
+           </div>
         </div>
       </div>
       <div className="main-experience-container">
@@ -67,7 +59,7 @@ function Portfolio() {
               <i>Software Developer</i>
             </div>
             <div className="company-title">
-              <b>Visuareal Pvt. Ltd.</b>
+              <b>Wolves Creata Pvt. Ltd.</b>
             </div>
             <div className="location-title">Ahmedabad, Gujarat, India</div>
             <div className="location-title">
@@ -81,18 +73,12 @@ function Portfolio() {
             </div>
           </div>
           <div className="main-exp-right">
-            Developed a comprehensive system encompassing work tracking and an
-            e-commerce platform tailored for visualizing surfaces and objects in
-            a 3-dimensional environment. Integrated a 3D environment seamlessly
-            into the software, utilizing Babylon JS to ensure smooth
-            visualization. Demonstrated proficiency in analyzing the document
-            object model (DOM) layout, DOM functions, JavaScript functions, and
-            cascading styles across various browsers, employing tools such as
-            Firebug and Developer Toolbar. Actively engaged in client meetings,
-            collaborating with customers and management to establish design and
-            production standards. Additionally, managed data collation and
-            maintenance within a MYSQL database to ensure efficient information
-            handling.
+            <li>Created a comprehensive system, work tracking, and e-commerce platform for visualizing surface and objects in a 3-Dimensional Environment for smooth visualization using Babylon JS.  </li>
+            <li>Optimized cross-browser compatibility by analyzing <b>DOM </b>functions and JavaScript interactions, leading to a 40% decrease in UI/UX bugs and a 25% improvement in load times across diverse browser platforms. 
+            </li>
+            <li>Implemented and designed <b>UI/UX enhancements</b>, ensuring cross-browser compatibility and responsiveness.</li>
+            
+
           </div>
         </div>
       </div>
@@ -116,15 +102,11 @@ function Portfolio() {
             </div>
           </div>
           <div className="main-exp-right">
-            A real-time project was developed utilizing data-visualization tools
-            such as Tableau and technologies including Python, Machine Learning,
-            and Data Analysis. The project involved extensive data preparation
-            and analysis, encompassing tasks such as data pre-processing and
-            data wrangling. Various classification and regression techniques
-            were employed to identify trends and patterns within the data, with
-            findings presented in a clear and concise manner. Comprehensive data
-            analysis was conducted to optimize business strategies, streamline
-            processes, and enhance operational efficiency.
+            <li>Implemented a real-time project utilizing Tableau, Python, and machine learning; simplified data processing, saving significant time weekly. 
+            </li>
+            <li>Streamlined the data preparation process by executing tasks such as data pre-processing, cleaning and wrangling; identified data quality issues, enhancing decision-making accuracy and efficiency by 40%. </li>
+            <li>Applied analytics is used to identify trends and forecast market shifts, which reduces costs & minimizes stockouts through predictive modeling. </li>
+        
           </div>
         </div>
       </div>

@@ -2,7 +2,8 @@ import React, { Component} from "react";
 import { MenuItems } from "./MenuItems";
 import {Button} from "../Button";
 import './Navbar.css';
-import Resume from '../../assets/Resume.pdf';
+// import Resume from '../../assets/Resume.pdf';
+import Resume1 from '../../assets/Homepage/Kunjal_R.pdf';
 class Navbar extends Component {
     state={clicked:false}
     handleClick = () => {
@@ -28,7 +29,7 @@ class Navbar extends Component {
                     })}
                   
                   <li>
-                  <div><a href={Resume} download="Resume">
+                  <div><a href={Resume1} download="Resume">
                 <Button className="nav-links-mobile">RESUME</Button>
                 </a></div>
                   </li>

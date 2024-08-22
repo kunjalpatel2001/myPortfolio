@@ -6,7 +6,7 @@ import Education from "../Education/Education";
 import Contact from "../Contact/Contact";
 import Gettoknowmore from "../GetToKnowMore/Gettoknowmore";
 import Skills from "../Skills/Skills";
-import Resume from "../../assets/Resume.pdf";
+import Resume1 from "../../assets/Homepage/Kunjal_R.pdf";
 import { TypeAnimation } from "react-type-animation";
 
 
@@ -55,7 +55,7 @@ function Homepage() {
                 />
               </div>
               <div className="btn-start">
-                <a href={Resume} download="Resume">
+                <a href={Resume1} download="Resume">
                   <div className="btn-1">
                     <span>Resume</span>
                   </div>

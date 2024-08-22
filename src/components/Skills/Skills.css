@@ -1,6 +1,8 @@
 .main-skills-container{
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     margin: 20px 0px;
     background-color: white;
@@ -111,8 +113,6 @@
 }
 .tech-start{
     display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
     align-content: center;
 
 }

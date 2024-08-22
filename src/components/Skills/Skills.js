@@ -24,7 +24,7 @@ const myArray = [{}];
 
 function Skills() {
   return (
-    <div className="main-skills-container tech-start">
+    <div className="main-skills-container">
       <div className="skills-section-start">
         <div className="skills-title">
           <h2>Skills</h2>
